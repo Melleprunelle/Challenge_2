@@ -1,0 +1,46 @@
+/*A virer une fois terminé*/
+
+body {
+	background:red;
+	margin:0px;
+	margin-bottom:0px;
+}
+
+.mille {
+	width:1000px;
+	height:100%;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+header {
+	width:100%;
+	height:105px;
+	background:#EEEEEE;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#block1 {
+	width:100%;
+	height:825px;
+	background:#2EA762;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.block_bot {
+	width:100%;
+	height:618px;
+	background:#EEEEEE;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+footer {
+	width:100%;
+	height:205px;
+	background:green;
+	margin-top:0px;
+	margin-bottom:0px;
+}
