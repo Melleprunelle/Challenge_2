@@ -1,9 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
 *{margin:0px; box-sizing:border-box;}
 
 body {
 	background:red;
 	position:relative;
 }
+
+header {
+	width:100%;
+	height:105px;
+	background:#EEEEEE;
+	position:relative;
+}
+
+
+/*CSS qui gère le menu du Header*/
 
 #menu {
 	width:1000px;
@@ -16,7 +28,42 @@ body {
 	padding-top:15px;
 }
 
+
+/*CSS gérant ma liste du menu*/
+
+ul{
+	padding:0px;
+	font-size:15px;
+	list-style:none;
+	text-align:right;
 }
+
+li {
+	display:inline;
+	margin-left: 40px;
+}
+
+.liens_menu {
+	text-decoration:none;
+	color:#2b3f48;
+	font-family:"News Cycle";
+}
+
+.liens_menu:hover {
+	color:#2EA762;
+}
+
+
+/*CSS gérant le titre Pastime*/
+
+h3 {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 40px;
+	color:#2b3f48;
+}
+
+/*CSS Permettant d'être toujours dans les 1000px demandé*/
+
 .mille {
 	width:1000px;
 	height:100%;
@@ -24,30 +71,8 @@ body {
 	margin-right:auto;
 }
 
-header {
-	width:100%;
-	height:105px;
-	background:#EEEEEE;
-	position:relative;
-}
 
-h3 {
-	font-family: sans-serif;
-	font-size: 55px;
-}
-
-ul{
-	padding:0px;
-	font-size:15px;
-	color:#4B3F48;
-	font-family:sans-serif;
-	list-style:none;
-	text-align:right;
-}
-
-li {
-	display:inline;
-}
+/*CSS qui gère ma première section*/
 
 #block1 {
 	width:100%;
@@ -58,6 +83,9 @@ li {
 	background-size:cover;
 	
 }
+
+
+/*CSS des images*/
 
 img {
 	overflow:hidden;
@@ -75,15 +103,65 @@ img {
 	margin-right:auto;
 }
 
+
+/*CSS bouton*/
+.etiam {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	background:#2b3f48;
+	width:265px;
+	height:70px;
+	border-radius:10px;
+
+}
+
+.text_etiam {
+	font-size:20px;
+	font-family:"News Cycle";
+	text-align:center;
+	color:#EEEEEE;
+	padding:20px 20px 20px 20px;
+}
+
+
+/*CSS qui gère les deux dernières sections*/
+
 .block_bot {
 	width:100%;
 	height:618px;
 	background:#EEEEEE;
-}
+} 
 
 #fond {
 	background:#2EA762;
 }
+
+h1 {
+	padding-top:200px;
+	font-size:55px;
+	font-family:"News Cycle";
+	text-align:center;
+	color:#2b3f48;
+}
+
+h2 {
+	padding-top:10px;
+	font-size:22px;
+	font-family:"News Cycle";
+	text-align:center;
+	color:#2b3f48;
+}
+
+.text_section {
+	padding-top:35px;
+	font-size:17px;
+	font-family: "News Cycle";
+	text-align:center;
+	color:#2b3f48;
+}
+
+/*CSS qui gère le footer*/
 
 footer {
 	width:100%;
@@ -92,4 +170,15 @@ footer {
 	background:#EEEEEE;
 	position:absolute;
 	bottom:0px;
+	font-family:"News Cycle";
+	font-size: 17px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 3px;
+	color:#9C9C8D;
+}
+
+.color_footer {
+	color:#2b3f48;
 }
