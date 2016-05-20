@@ -180,3 +180,8 @@ footer {
 .color_footer {
 	color:#2b3f48;
 }
+strong {
+text-decoration : underline; }
+
+em { 
+text-color: black }
