@@ -129,7 +129,7 @@ img {
 
 .block_bot {
 	width:100%;
-	height:618px;
+	height:825px;
 	background:#EEEEEE;
 } 
 
@@ -156,7 +156,7 @@ h2 {
 .text_section {
 	padding-top:35px;
 	font-size:17px;
-	font-family: "News Cycle";
+	font-family:"News Cycle";
 	text-align:center;
 	color:#2b3f48;
 }
@@ -166,10 +166,8 @@ h2 {
 footer {
 	width:100%;
 	height:205px;
-	bottom:0px;
 	background:#EEEEEE;
 	position:absolute;
-	bottom:0px;
 	font-family:"News Cycle";
 	font-size: 17px;
 	display:flex;
