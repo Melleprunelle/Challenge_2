@@ -135,12 +135,24 @@ body {
 
 	}
 
+	#bouton_vert {
+		background-color:#2EA762;
+	}
+
+	#bouton_blanc {
+		background-color:#EEEEEE;
+	}
+
 	.text_etiam {
 	font-size:20px;
 	font-family:"News Cycle";
 	text-align:center;
 	color:#EEEEEE;
 	padding:20px 20px 20px 20px;
+	}
+
+	#typo_bouton_blanc {
+		color:#2EA762;
 	}
 
 
@@ -150,7 +162,7 @@ body {
 		width:100%;
 		height:825px;
 		background-color:rgba(238, 238, 238, 0.8);
-	} 
+	}
 
 	#fond {
 		background:#2EA762;
@@ -167,11 +179,11 @@ body {
 	}
 
 	h2 {
-		padding-top:50px;
 		font-size:22px;
 		font-family:"News Cycle";
 		text-align:center;
 		color:#2b3f48;
+		padding-top: 20;
 	}
 
 	.text_section {
@@ -185,7 +197,6 @@ body {
 
 	.blanc {
 		color:white;
-		line-height:30px;
 
 	}
 
@@ -209,6 +220,11 @@ body {
 
 	em { 
 		color: black; }
+
+	a {
+		text-decoration: none;
+		color:white;
+	}
 
 
 /*CSS qui gère le footer*/
